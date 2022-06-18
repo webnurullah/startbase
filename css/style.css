@@ -12,6 +12,12 @@
 .bt-primary:hover{
     color: #fff;
 }
+.h2-title{
+    color: #161615;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 600;
+}
 
 
 
@@ -43,9 +49,14 @@
 .slider-button-box{
     margin: 28px 0px 15px;
 }
-.banner-title{
-    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  font-family: Montserrat;
-  font-size: 48px;
-  font-weight: 600;
+
+
+/* second-section */
+.second-section{
+    padding: 200px 0px ;
+}
+
+/* map section */
+.map-img{
+    padding: 60px 0px;
 }
