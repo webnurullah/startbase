@@ -1,28 +1,114 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1400px) { 
-
+/* header */
+   .navbar-logo{     
+    height: 45px;        
+    }
+    .navbar {
+        height: 115px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    .header-icon{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
 
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) { 
+/* header */
+   .navbar-logo{     
+    height: 40px;        
+    } 
+    .navbar {
+        height: 110px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .header-icon{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
-   
+/* header */
+   .navbar-logo{     
+    height: 35px;        
+    } 
+    .navbar {
+        height: 100px;
+    }
+    .navbar-expand .navbar-nav .nav-link {
+        margin-right: 2rem;
+        margin-left: 0rem;
+      }
+    .header-icon{
+        margin-left: 0rem;
+        margin-right: 2rem;
+        width: 32px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
-    
+/* header */
+    .navbar-logo{     
+        height: 30px;        
+    } 
+   
+    .header-icon{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 30px;
+    }
+    .navbar {
+        height: 90px;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
-   
+    
+/* header */
+    .navbar-logo{     
+        height: 25px;        
+    }  
+    .navbar-expand .navbar-nav .nav-link {
+        margin-right: 1.25rem;
+        margin-left: 0rem;
+      }
+    .header-icon{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        width: 28px;
+    }
+    .navbar {
+        height: 80px;
+    }
  }
+
+ 
+/* Extra Small devices (landscape phones, 424px and up) */
+@media (max-width: 430px) { 
+    
+/* header */
+    .navbar-logo{
+        height: 20px;
+    }
+  
+    
+    
+ }
+
 
 
 

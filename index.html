@@ -6,25 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home page</title>
-  <!-- Fontawesome icon -->
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
+  
+
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <!-- css -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
+     <!-- slick slider -->
+     <link rel="stylesheet" href="slick/slick.css">
+     <link rel="stylesheet" href="slick/slick-theme.css">
+
+
+  <!-- Fontawesome icon -->
+  <script src="https://kit.fontawesome.com/fcea059855.js" crossorigin="anonymous"></script>
   <!-- custome css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive css -->
   <link rel="stylesheet" href="css/brackpoint.css">
+ 
 </head>
 
 <body>
-  <div class="wrapper">
+ 
+    <!-- header  -->
+
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="container-fluid">
+          <img class="navbar-logo" src="images/logo/Logo.svg" alt="">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex align-items-center ms-auto">
+              <li class="nav-item d-none d-sm-block">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown d-none d-md-block">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Locations
+                </a>
+                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Meran</a></li>
+                  <li><a class="dropdown-item" href="#">Bozen</a></li>
+                  <li><a class="dropdown-item" href="#">Bruneck</a></li>
+                  <li><a class="dropdown-item" href="#">Schlanders & Mals</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <div class="d-md-none header-hr"> </div>
+              <li class="nav-item">
+                <img class="header-icon" src="images/logo/it.svg" alt="">
+              </li>
+           
+            </ul>
+          </div>
+      </div>
+    </nav>
+
     <!-- slider -->
     <div class="slider">
       <div id="banner_slider" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators d-sm-none">
           <button type="button" data-bs-target="#banner_slider" data-bs-slide-to="0" class="active" aria-current="true"
             aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#banner_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -36,30 +82,39 @@
           <div class="carousel-item dark active">
             <img src="images/sliders/Tracciato 781_1.png" class="d-block w-100" alt="banner">
             <div class="carousel-caption">
-              <img src="images/icons/traiangle.svg" alt="">
-             <div class="slider-button-box" >
-              <a href="" class="btn bt-primary ">
-                Willkommen bei Südtirols größtem
-              </a>
-             </div>
-             <p class="display-3" >Coworking Netzwerk</p>
-          
+                <img src="images/icons/traiangle.svg" alt="">
+                <div class="slider-button-box" >
+                 <a href="" class="btn bt-primary ">
+                   Willkommen bei Südtirols größtem
+                 </a>
+                </div>
+                <p class="display-3" >Coworking Netzwerk</p>
             </div>
           </div>
 
           <div class="carousel-item dark ">
             <img src="images/sliders/Tracciato 781_1.png" class="d-block w-100" alt="banner">
             <div class="carousel-caption">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+                <img src="images/icons/traiangle.svg" alt="">
+                <div class="slider-button-box" >
+                 <a href="" class="btn bt-primary ">
+                   Willkommen bei Südtirols größtem
+                 </a>
+                </div>
+                <p class="display-3" >Coworking Netzwerk</p>
             </div>
           </div>
 
           <div class="carousel-item dark ">
             <img src="images/sliders/Tracciato 781_1.png" class="d-block w-100" alt="banner">
             <div class="carousel-caption">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+                <img src="images/icons/traiangle.svg" alt="">
+                <div class="slider-button-box" >
+                 <a href="" class="btn bt-primary ">
+                   Willkommen bei Südtirols größtem
+                 </a>
+                </div>
+                <p class="display-3" >Coworking Netzwerk</p>
             </div>
           </div>
 
@@ -74,34 +129,484 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
-  </div>
 
 
-  <div class="container second-section">
-    <div class="row">
-      <div class="col-12 col-md-8 offset-md-2">
-        <span>Startbase</span>
-        <h2 class="h1 pb-4 pb-md-4 pb-lg-4" >Coworking Culture made in Südtirol</h2>
-
+      <div class="slide-item container d-none d-md-block">
+        <div class="row justify-content-center">
+          <div class="col  box py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col box py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col box py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col box py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col box py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col py-4">
+              <div class="item-box">
+                <span>Coworking</span>
+                <p>Bozen</p>
+              </div>
+          </div>
+          <div class="col py-4">
+             
+          </div>
+          <div class="col py-4">
+             
+          </div>
+          <div class="col py-4">
+              
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 offset-md-3">
-        Unsere Coworkings in Südtirol sind eine Büro-Alternative für Kreative, Freiberufler, Unternehmen, Gründer, Freelancer oder Startups.
-
-        Startbase stellt dir auf Tages- oder Monatsbasis Büros, Arbeitsplätze und Infrastruktur wie schnelles Internet, Drucker, Scanner, Beamer oder einen Meetingroom zur Verfügung. Komm vorbei und reserviere dir ganz unbürokratisch dein Büro oder Arbeitsplatz.
-      </div>
     </div>
-  </div>
 
 
-  <div class="map-section text-center">
 
-          <img class="map-img" src="images/news/Raggruppa 4579.svg" alt="" srcset="">
+    
+    <div class="wrapper d-none">
+
+
+    <div class="container section-padding">
+      <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+          <span class="sub-title" >Startbase</span>
+          <h1 class="h1 pb-4 pb-md-4 pb-lg-4" >Coworking Culture made in Südtirol</h1>
   
+        </div>
+        <div class="col-12 col-md-6 offset-md-3">
+          Unsere Coworkings in Südtirol sind eine Büro-Alternative für Kreative, Freiberufler, Unternehmen, Gründer, Freelancer oder Startups.
+  
+          Startbase stellt dir auf Tages- oder Monatsbasis Büros, Arbeitsplätze und Infrastruktur wie schnelles Internet, Drucker, Scanner, Beamer oder einen Meetingroom zur Verfügung. Komm vorbei und reserviere dir ganz unbürokratisch dein Büro oder Arbeitsplatz.
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="map-section text-center">
+      <img class="map-img w-100" src="images/news/Raggruppa 4579.svg" alt="" srcset="">
+    </div>
+  
+  
+    <div class="container section-padding">
+      <div class="service-title text-center">
+        <span class="sub-title" >Services</span>
+        <h2 class="h2" >Community mit vielen Vorteilen</h2>
+      </div>
+  
+      <div class="text-center row row-cols-2 row-cols-md-3 ">
+        <div class="col mb-4 mb-md-5">
+          <div class="service-box ">
+            <img src="images/icons/clock.svg" alt="">
+            <p class="service-text" >24/7 Zugang</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/cofe.svg" alt="">
+            <p class="service-text" >Cafe Kitchen</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/mail.svg" alt="">
+            <p class="service-text" >Firmensitz und Postservice</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/network.svg" alt="">
+            <p class="service-text" >Fiber Internet</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/hous.svg" alt="">
+            <p class="service-text" >Heizung / Klimaanlage</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/fax.svg" alt="">
+            <p class="service-text" >Drucker, Scanner, Beamer</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-5 ">
+          <div class="service-box">
+            <img src="images/icons/cricle.svg" alt="">
+            <p class="service-text" >4 Standorte <br>
+              1 Community</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="service-box">
+            <img src="images/icons/circle-mobe.svg" alt="">
+            <p class="service-text" >Zugang zu 4 Meeting Rooms <br> in Südtirol</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="service-box">
+            <img src="images/icons/right-leftarrow.svg" alt="">
+            <p class="service-text" >Austausch <br>
+              in der Community</p>
+            <div class="service-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="container about-section">
+      <div class="about-heading d-flex flex-row align-items-center">
+        <img class="me-1 me-md-3 about-head-img" src="images/icons/threerec.svg" alt="">
+        <h1 class="ms-1  ms-md-3 display-2 d-inline-block" >About us</h1>
+      </div>
+      <div class="row offset-md-1 spacing">
+        <div class="col-12 col-md-5 ">
+          <img class="img-fluid" src="images/about/workplace.png" alt="">
+        </div>
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+          <span class="sub-title" >Unsere Werte</span>
+          <h2 class="h1 s-title">
+            Die Mission
+          </h2>
+          <p class="lead">
+            Unsere Community fördert folgende Coworking Werte: Zusammenarbeit & Neugierde, Gemeinschaft & Wissen teilen, Sinnhaftigkeit & Nachhaltigkeit, Offenheit & Zugänglichkeit sowie Passion & Engagement​
+          </p>
+        </div>
+      </div>
+      <div class="row offset-md-1 spacing">
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-start">
+          <span class="sub-title" >Über uns</span>
+          <h2 class="h1 s-title">
+            Das Netzwerk
+          </h2>
+          <p class="lead">
+            Startbase ist ein Netzwerk von Coworking Spaces in​ Südtirol. Wir bieten flexible Arbeitsplätze, Services und unterstützen den Austausch und die Vernetzung​ innerhalb der Community.​ Die einzelnen Locations werden nicht direkt von Start-​base, sondern von folgenden Betreibern geführt
+          </p>
+        </div>
+        <div class="col-12 col-md-5">
+          <img class="img-fluid" src="images/about/workplace2.png" alt="">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container logo-section">
+      <div class="brandlogo">
+        <div class="mx-2" > <img class="w-100" src="images/logo/fiera.png" alt=""></div>
+        <div class="mx-2" > <img class="w-100" src="images/logo/mind.png" alt=""></div>
+        <div class="mx-2" > <img class="w-100" src="images/logo/mind.png" alt=""></div>
+        <div class="mx-2" > <img class="w-100" src="images/logo/fiera.png" alt=""></div>
+        <div class="mx-2" > <img class="w-100" src="images/logo/mind.png" alt=""></div>
+        <div class="mx-2" > <img class="w-100" src="images/logo/mind.png" alt=""></div>
+      </div>
+    </div>
+
+    <!-- news section -->
+
+
+ 
+ 
+
+
+  
+  <div class="news-section">
+    <div class="container">
+      <div class="text-center py-3 py-md-5">
+        <span class="sub-title" >News</span>
+        <h2 class="h2">Latest News</h2>
+      </div>
+
+
+      <div class="newslider">
+      
+        <!-- single box -->
+        <div class="news-box " > 
+          <span class="text-decoration-none" data-src="
+          <div class='lightbox-popup'>
+      
+            <div class='row h-100'>
+              <div class='col-md-4'>
+                <img class='h-100 w-100' src='images\news\lighshow\starelogn.png' alt=''>
+              </div>
+              <div class='col-md-8'>
+                <div class='light-innnerbox'>
+                  <span class='sub-title' >Bruneck</span>
+                  <h1> startbase Südtirol wächst weiter!</h1>
+                  <p class='lead s-title' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                    <br> <br>
+                    Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+                    <img class='s-title img-fluid' src='images\news\lighshow\workplace.png' alt=''>
+                    <p class='lead pt-3 pt-md-4' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                      <br> <br>
+                      Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+            " data-type="html" data-toggle="lightbox">
+          <img class="w-100" src="images/news/stare.png" alt="">
+          <div class="news-heading" >
+            <span class="sub-title" >Bruneck </span>
+            <h4 class="h4">
+              startbase Südtirol wächst weiter!
+            </h4>
+          </div>
+        </span>
+        </div>
+        <!-- single box end -->
+        <!-- single box -->
+        <div class="news-box " > 
+          <span class="text-decoration-none" data-src="
+          <div class='lightbox-popup'>
+      
+            <div class='row h-100'>
+              <div class='col-md-4'>
+                <img class='h-100 w-100' src='images\news\lighshow\starelogn.png' alt=''>
+              </div>
+              <div class='col-md-8'>
+                <div class='light-innnerbox'>
+                  <span class='sub-title' >Bruneck</span>
+                  <h1> startbase Südtirol wächst weiter!</h1>
+                  <p class='lead s-title' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                    <br> <br>
+                    Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+                    <img class='s-title img-fluid' src='images\news\lighshow\workplace.png' alt=''>
+                    <p class='lead pt-3 pt-md-4' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                      <br> <br>
+                      Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+            " data-type="html" data-toggle="lightbox">
+          <img class="w-100" src="images/news/stare.png" alt="">
+          <div class="news-heading" >
+            <span class="sub-title" >Bruneck </span>
+            <h4 class="h4">
+              startbase Südtirol wächst weiter!
+            </h4>
+          </div>
+        </span>
+        </div>
+        <!-- single box end -->
+        <!-- single box -->
+        <div class="news-box " > 
+          <span class="text-decoration-none" data-src="
+          <div class='lightbox-popup'>
+      
+            <div class='row h-100'>
+              <div class='col-md-4'>
+                <img class='h-100 w-100' src='images\news\lighshow\starelogn.png' alt=''>
+              </div>
+              <div class='col-md-8'>
+                <div class='light-innnerbox'>
+                  <span class='sub-title' >Bruneck</span>
+                  <h1> startbase Südtirol wächst weiter!</h1>
+                  <p class='lead s-title' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                    <br> <br>
+                    Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+                    <img class='s-title img-fluid' src='images\news\lighshow\workplace.png' alt=''>
+                    <p class='lead pt-3 pt-md-4' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                      <br> <br>
+                      Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+            " data-type="html" data-toggle="lightbox">
+          <img class="w-100" src="images/news/stare.png" alt="">
+          <div class="news-heading" >
+            <span class="sub-title" >Bruneck </span>
+            <h4 class="h4">
+              startbase Südtirol wächst weiter!
+            </h4>
+          </div>
+        </span>
+        </div>
+        <!-- single box end -->
+        <!-- single box -->
+        <div class="news-box " > 
+          <span class="text-decoration-none" data-src="
+          <div class='lightbox-popup'>
+      
+            <div class='row h-100'>
+              <div class='col-md-4'>
+                <img class='h-100 w-100' src='images\news\lighshow\starelogn.png' alt=''>
+              </div>
+              <div class='col-md-8'>
+                <div class='light-innnerbox'>
+                  <span class='sub-title' >Bruneck</span>
+                  <h1> startbase Südtirol wächst weiter!</h1>
+                  <p class='lead s-title' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                    <br> <br>
+                    Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+                    <img class='s-title img-fluid' src='images\news\lighshow\workplace.png' alt=''>
+                    <p class='lead pt-3 pt-md-4' >startbase Südtirol steht für nachhaltige Coworking-Kultur in Südtirol und betreibt derzeit fünf Coworking Spaces in Bozen, Meran, Bruneck, Schlanders. Mit der Eröffnung von Gemeinschaftsbüro in Sand in Taufers und Mals, wächst das Netzwerk weiter.
+                      <br> <br>
+                      Smart Working, Home-Office, Coworking – Begriffe die zuletzt eine noch größere Bedeutung gewonnen haben. In Südtirol wurde bereits vor einigen Jahren das Netzwerk startbase Südtirol als Basislager für kreative Köpfe, Freiberufler:innen, digitale Nomad:innen und Start-Ups gegründet. Die Coworking Spaces startbase sind als starke Community formiert, in der Vernetzung und Ideenaustausch großgeschrieben werden. Die Nachfrage nach flexiblen Arbeitsplätzen steigt stetig und auch das Netzwerk wächst weiter.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+            " data-type="html" data-toggle="lightbox">
+          <img class="w-100" src="images/news/stare.png" alt="">
+          <div class="news-heading" >
+            <span class="sub-title" >Bruneck </span>
+            <h4 class="h4">
+              startbase Südtirol wächst weiter!
+            </h4>
+          </div>
+        </span>
+        </div>
+        <!-- single box end -->
+       
+      
+    
+
+      </div>
+      <!-- news slider end -->
+      <div class="text-center">
+        <a class="btn bt-second" href="">Alle News anzeigen</a>
+      </div>
+
+    </div>
   </div>
+
+
+  <div class="container partner-sectioin">
+      <div class="text-center py-3 py-md-5">
+        <span class="sub-title" >Our partner</span>
+        <h2 class="h2">Partner</h2>
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-2">
+        <img class="img-fluid" src="images/logo/alperia.png" alt="">
+      </div>
+      <div class="col-6 col-md-2">
+        <img class="img-fluid" src="images/logo/alperia.png" alt="">
+      </div>
+      <div class="col-6 col-md-2">
+        <img class="img-fluid" src="images/logo/alperia.png" alt="">
+      </div>
+      <div class="col-6 col-md-2">
+        <img class="img-fluid" src="images/logo/alperia.png" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-section p-40">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 justify-content-between ">
+         <div class="col text-center text-md-start" >
+            
+             
+                <ul class=" footer-social-icon list-inline list-unstyled d-md-none" >
+                  <li class="list-inline-item align-self-center" >
+                    <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="list-inline-item align-self-center" >
+                    <a class="fs-18" href=""> <i class=" fa-brands fa-instagram"></i></i></a>
+                  </li>
+                </ul>
+                <img  class="footerlogo " src="images/logo/logofooter.svg" alt="">
+                <span class="ps-md-5 ms-lg-5 fs-14 d-inline-block d-md-inline">© 2022 Startbase | Coworking Made in Südtirol</span>
+             
+         
+         </div>
+          <div class="col text-center text-md-start">
+                <div class="d-flex flex-column flex-md-row justify-content-md-end footer-menu ">
+                    <a class="fs-14 text-decoration-none text-white" href="">Impressum</a>
+                  <a class="fs-14 text-decoration-none text-white" href="">Privacy & Cookies</a>
+                  <img class="footer-icon" src="images/logo/fotterrigh.svg" alt="">
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+  </div>
+  <!-- wrapper end -->
+
+  <!-- jquery -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- slick js -->
+  <script src="js/slick.min.js"></script>
 
   <!-- bootstrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- light box -->
+  <script src="dist/index.bundle.min.js"></script>
+  
   <!-- custom js -->
   <script src="js/script.js"></script>
 </body>
