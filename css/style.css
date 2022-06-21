@@ -63,6 +63,9 @@ body{
 .slider .carousel-inner{
    position: relative;
 }
+.slider-img{
+    height: 960px;
+}
 .slider .carousel-inner .dark:after {
     content: "";
     display: block;
@@ -86,6 +89,62 @@ body{
 .slider-button-box{
     margin: 28px 0px 15px;
 }
+/* arrowd */
+.slider .fa-arrow-right-long, .slider .fa-arrow-left-long {
+    font-size: 43px;
+    position: relative;
+   
+}
+
+.carousel-control-next:hover .fa-arrow-right-long{
+    -webkit-animation: arrowmove 1s linear infinite;
+            animation: arrowmove 1s linear infinite;
+            
+}
+.carousel-control-prev:hover .fa-arrow-left-long{
+    -webkit-animation: arrowmove2 1s linear infinite;
+            animation: arrowmove2 1s linear infinite;
+            
+}
+
+@-webkit-keyframes arrowmove {
+    from {
+       right: 30px;
+    }
+
+    to {
+       right: 0px;
+    }
+}
+
+@keyframes arrowmove {
+    from {
+       right: 30px;
+    }
+
+    to {
+       right: 0px;
+    }
+}
+@-webkit-keyframes arrowmove2 {
+    from {
+       left: 30px;
+    }
+
+    to {
+       left: 0px;
+    }
+}
+
+@keyframes arrowmove2 {
+    from {
+       left: 30px;
+    }
+
+    to {
+       left: 0px;
+    }
+}
 /* slider item */
 
 .slide-item{
@@ -97,9 +156,9 @@ body{
     font-weight: 600;
     z-index: 3;
 }
-.slide-item-row{
+/* .slide-item-row{
     margin: 30px 0px;
-}
+} */
 .item-box{
     position: relative;
     padding-left: 50px;
@@ -108,7 +167,7 @@ body{
     content: '';
     position: absolute;
     opacity: 0.2;
-    top: 0;
+    top: 10px;
     left: -12px;
     bottom: 0;
     width: 1px;
