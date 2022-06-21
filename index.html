@@ -32,7 +32,7 @@
 </head>
 
 <body>
- 
+  <div class="wrapper">
     <!-- header  -->
 
     <nav class="navbar navbar-expand navbar-light bg-light">
@@ -179,22 +179,38 @@
         </div>
        
       </div>
+
+      <ul class="header-social-icon social-icon footer-social-icon list-unstyled d-none d-md-block" >
+        <li class="align-self-center my-md-2 my-lg-3" >
+          <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li class="align-self-center my-md-2 my-lg-3" >
+          <a class="fs-18" href=""> <i class=" fa-brands fa-instagram"></i></i></a>
+        </li>
+      </ul>
     </div>
 
-
+    <ul class="social-icon extra-social-iocn list-unstyled d-none d-md-block" >
+      <li class="align-self-center my-md-2 my-lg-3" >
+        <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
+      </li>
+      <li class="align-self-center my-md-2 my-lg-3" >
+        <a class="fs-18" href=""> <i class=" fa-brands fa-instagram"></i></i></a>
+      </li>
+    </ul>
 
     
-    <div class="wrapper d-none">
 
-
-    <div class="container section-padding">
+    <div class="container section-padding-1">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
           <span class="sub-title" >Startbase</span>
-          <h1 class="h1 pb-4 pb-md-4 pb-lg-4" >Coworking Culture made in Südtirol</h1>
+          <h1 class="h1 pb-1 pb-sm-2 pb-md-3 pb-lg-4" >Coworking Culture made in Südtirol</h1>
   
         </div>
-        <div class="col-12 col-md-6 offset-md-3">
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 offset-lg-3">
           Unsere Coworkings in Südtirol sind eine Büro-Alternative für Kreative, Freiberufler, Unternehmen, Gründer, Freelancer oder Startups.
   
           Startbase stellt dir auf Tages- oder Monatsbasis Büros, Arbeitsplätze und Infrastruktur wie schnelles Internet, Drucker, Scanner, Beamer oder einen Meetingroom zur Verfügung. Komm vorbei und reserviere dir ganz unbürokratisch dein Büro oder Arbeitsplatz.
@@ -202,9 +218,13 @@
       </div>
     </div>
   
-  
+   
     <div class="map-section text-center">
-      <img class="map-img w-100" src="images/news/Raggruppa 4579.svg" alt="" srcset="">
+        <div class="container">
+          <div class="row justify-content-center">
+              <img class="map-img" src="images/worldmap.svg" alt="" srcset="">
+          </div>
+        </div>
     </div>
   
   
@@ -289,7 +309,7 @@
           </div>
         </div>
         <div class="col ">
-          <div class="service-box">
+          <div class="service-box d-none d-md-block">
             <img src="images/icons/right-leftarrow.svg" alt="">
             <p class="service-text" >Austausch <br>
               in der Community</p>
@@ -304,19 +324,19 @@
     </div>
 
 
-
+  
 
 
     <div class="container about-section">
-      <div class="about-heading d-flex flex-row align-items-center">
+      <div class="about-heading d-flex flex-column flex-md-row justify-content-md-start justify-content-center align-items-center">
         <img class="me-1 me-md-3 about-head-img" src="images/icons/threerec.svg" alt="">
-        <h1 class="ms-1  ms-md-3 display-2 d-inline-block" >About us</h1>
+        <span class="ms-1  ms-md-3 display-2 d-inline-block" >About us</span>
       </div>
-      <div class="row offset-md-1 spacing">
-        <div class="col-12 col-md-5 ">
+      <div class="row align-items-center align-items-lg-start offset-lg-1 spacing">
+        <div class="col-12 col-md-4 col-lg-5 ">
           <img class="img-fluid" src="images/about/workplace.png" alt="">
         </div>
-        <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5 d-flex flex-column justify-content-center">
           <span class="sub-title" >Unsere Werte</span>
           <h2 class="h1 s-title">
             Die Mission
@@ -326,8 +346,8 @@
           </p>
         </div>
       </div>
-      <div class="row offset-md-1 spacing">
-        <div class="col-12 col-md-5 d-flex flex-column justify-content-start">
+      <div class="row align-items-center align-items-lg-start offset-lg-1 spacing">
+        <div class="col-12 col-md-8 order-2 order-md-1 col-lg-5 d-flex flex-column justify-content-start">
           <span class="sub-title" >Über uns</span>
           <h2 class="h1 s-title">
             Das Netzwerk
@@ -336,7 +356,7 @@
             Startbase ist ein Netzwerk von Coworking Spaces in​ Südtirol. Wir bieten flexible Arbeitsplätze, Services und unterstützen den Austausch und die Vernetzung​ innerhalb der Community.​ Die einzelnen Locations werden nicht direkt von Start-​base, sondern von folgenden Betreibern geführt
           </p>
         </div>
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-4 order-1 order-md-2 col-lg-5">
           <img class="img-fluid" src="images/about/workplace2.png" alt="">
         </div>
       </div>
@@ -360,10 +380,9 @@
  
 
 
-  
   <div class="news-section">
     <div class="container">
-      <div class="text-center py-3 py-md-5">
+      <div class="text-center pb-5">
         <span class="sub-title" >News</span>
         <h2 class="h2">Latest News</h2>
       </div>
@@ -396,7 +415,7 @@
               </div>
             </div>
           </div>
-            " data-type="html" data-toggle="lightbox">
+            " data-type="html"  data-toggle="lightbox">
           <img class="w-100" src="images/news/stare.png" alt="">
           <div class="news-heading" >
             <span class="sub-title" >Bruneck </span>
@@ -432,7 +451,7 @@
               </div>
             </div>
           </div>
-            " data-type="html" data-toggle="lightbox">
+            " data-type="html"  data-toggle="lightbox">
           <img class="w-100" src="images/news/stare.png" alt="">
           <div class="news-heading" >
             <span class="sub-title" >Bruneck </span>
@@ -468,7 +487,7 @@
               </div>
             </div>
           </div>
-            " data-type="html" data-toggle="lightbox">
+            " data-type="html"  data-toggle="lightbox">
           <img class="w-100" src="images/news/stare.png" alt="">
           <div class="news-heading" >
             <span class="sub-title" >Bruneck </span>
@@ -504,7 +523,7 @@
               </div>
             </div>
           </div>
-            " data-type="html" data-toggle="lightbox">
+            " data-type="html"  data-toggle="lightbox" data-size="fullscreen">
           <img class="w-100" src="images/news/stare.png" alt="">
           <div class="news-heading" >
             <span class="sub-title" >Bruneck </span>
@@ -529,34 +548,35 @@
   </div>
 
 
-  <div class="container partner-sectioin">
-      <div class="text-center py-3 py-md-5">
-        <span class="sub-title" >Our partner</span>
-        <h2 class="h2">Partner</h2>
-      </div>
-    <div class="row justify-content-center">
-      <div class="col-6 col-md-2">
-        <img class="img-fluid" src="images/logo/alperia.png" alt="">
-      </div>
-      <div class="col-6 col-md-2">
-        <img class="img-fluid" src="images/logo/alperia.png" alt="">
-      </div>
-      <div class="col-6 col-md-2">
-        <img class="img-fluid" src="images/logo/alperia.png" alt="">
-      </div>
-      <div class="col-6 col-md-2">
-        <img class="img-fluid" src="images/logo/alperia.png" alt="">
+    <div class="partner-sectioin" >
+      <div class="container ">
+        <div class="text-center py-3 pb-md-5">
+          <span class="sub-title" >Our <span class="d-none d-md-inline-block" > partner </span> </span>
+          <h2 class="h2">Partner</h2>
+        </div>
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-2">
+          <img class="img-fluid" src="images/logo/alperia.png" alt="">
+        </div>
+        <div class="col-6 col-md-2">
+          <img class="img-fluid" src="images/logo/alperia.png" alt="">
+        </div>
+        <div class="col-6 col-md-2">
+          <img class="img-fluid" src="images/logo/alperia.png" alt="">
+        </div>
+        <div class="col-6 col-md-2">
+          <img class="img-fluid" src="images/logo/alperia.png" alt="">
+        </div>
       </div>
     </div>
   </div>
-  
-  <div class="footer-section p-40">
+  <div class="footer-section">
     <div class="container-fluid">
-      <div class="row row-cols-1 row-cols-md-2 justify-content-between ">
+      <div class="row row-cols-1 row-cols-sm-2 align-items-md-center  justify-content-between ">
          <div class="col text-center text-md-start" >
             
              
-                <ul class=" footer-social-icon list-inline list-unstyled d-md-none" >
+                <ul class="pb-4 social-icon list-inline list-unstyled d-md-none" >
                   <li class="list-inline-item align-self-center" >
                     <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
                   </li>
@@ -564,8 +584,8 @@
                     <a class="fs-18" href=""> <i class=" fa-brands fa-instagram"></i></i></a>
                   </li>
                 </ul>
-                <img  class="footerlogo " src="images/logo/logofooter.svg" alt="">
-                <span class="ps-md-5 ms-lg-5 fs-14 d-inline-block d-md-inline">© 2022 Startbase | Coworking Made in Südtirol</span>
+                <img  class="footerlogo d-block d-sm-inline m-auto" src="images/logo/logofooter.svg" alt="">
+                <p class="fs-14 ms-lg-5 ps-xl-4 pb-3 pb-md-0 d-md-inline-block">© 2022 Startbase | Coworking Made in Südtirol</p>
              
          
          </div>
@@ -573,7 +593,7 @@
                 <div class="d-flex flex-column flex-md-row justify-content-md-end footer-menu ">
                     <a class="fs-14 text-decoration-none text-white" href="">Impressum</a>
                   <a class="fs-14 text-decoration-none text-white" href="">Privacy & Cookies</a>
-                  <img class="footer-icon" src="images/logo/fotterrigh.svg" alt="">
+                  <img class="footer-icon mt-5 mt-md-0 ms-xl-4" src="images/logo/fotterrigh.svg" alt="">
                 </div>
           </div>
       </div>
@@ -600,6 +620,7 @@
   
   <!-- custom js -->
   <script src="js/script.js"></script>
+
 </body>
 
 </html>

@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+  
     $('.brandlogo').slick({
         infinite: true,
         slidesToShow: 4,
@@ -59,7 +61,7 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                 
-                  slidesToShow: 3
+                  slidesToShow: 2
                 }
               },
             {

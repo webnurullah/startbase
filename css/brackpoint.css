@@ -1,4 +1,21 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width:1600px){
+    .map-section {
+        background: linear-gradient(153.5deg, transparent 50%, #adcfdb 50% );
+    }
+    /* about section */
+   
+    .about-section .spacing{
+        padding: 80px 0px;
+    }
+    .logo-section {
+        padding-bottom: 150px;
+    }
+        /* news section */
+        .news-section{
+            padding: 60px 0px 180px;
+        }
+}
 @media (max-width: 1400px) { 
 /* header */
    .navbar-logo{     
@@ -21,6 +38,40 @@
     }
     .slider .fa-arrow-right-long, .slider .fa-arrow-left-long {
         font-size: 35px;
+    }
+
+    .section-padding-1{
+        padding-top: 140px;
+        padding-bottom: 160px;
+    }
+    .section-padding{
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    .map-img{
+        padding: 55px 0px;
+        max-width: 950px;
+    }
+    .map-section {
+        
+        background: linear-gradient(153.5deg, transparent 50%, #adcfdb 50% );
+    }
+    /* about section */
+   
+    .about-section .spacing{
+        padding: 70px 0px;
+    }
+    .logo-section {
+        padding-bottom: 120px;
+    }
+       /* news section */
+       .news-section{
+        padding: 55px 0px 160px;
+    }
+    .news-box{
+        position: relative;
+        padding: 0px 30px;
+      
     }
 }
 
@@ -46,6 +97,7 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    
     /* slider */
     .slider-img{
         height: 800px;
@@ -53,7 +105,45 @@
     .slider .fa-arrow-right-long, .slider .fa-arrow-left-long {
         font-size: 30px;
     }
-
+    .section-padding-1{
+        padding-top: 120px;
+        padding-bottom: 140px;
+    }
+    .section-padding{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .map-img{
+        padding: 55px 0px;
+        max-width: 900px;
+    }
+    .map-section{ 
+        background :linear-gradient(151deg, transparent 50%, #adcfdb 50% ); 
+    }
+    /* about section */
+   
+    .about-section .spacing{
+        padding: 60px 0px;
+    }
+    .s-title {
+        padding: 10px 0px 35px 0px;
+    }
+    .logo-section {
+        padding-bottom: 100px;
+    }
+ /* news section */
+     .news-section{
+        padding: 55px 0px 140px;
+    }
+    .news-box{
+        position: relative;
+        padding: 0px 25px;
+      
+    }
+    .footer-menu a {
+        padding: 0px 15px;
+    }
+   
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -81,7 +171,41 @@
     .slider-img{
         height: 700px;
     }
- 
+    .section-padding-1{
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .section-padding{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .map-img{
+        padding: 50px 0px;
+    }
+    .map-section{ 
+       
+        background :linear-gradient(146deg, transparent 50%, #adcfdb 50% ); 
+    }
+    /* about section */
+   
+    .about-section .spacing{
+        padding: 50px 0px;
+    }
+    .s-title {
+        padding: 10px 0px 30px 0px;
+    }
+    .logo-section {
+        padding-bottom: 80px;
+    }
+    /* news section */
+    .news-section{
+        padding: 50px 0px 100px;
+    }
+    .news-box{
+        position: relative;
+        padding: 0px 20px;
+      
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -109,12 +233,63 @@
     .display-3{
         font-size: 2.5rem;
     }
-  
+    .section-padding-1{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .section-padding{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .map-img{
+        padding: 45px 0px;
+    }
+    .map-section {
+     
+        background: linear-gradient(145.5deg, transparent 50%, #adcfdb 50% );
+    }
+    .service-box{
+        width: 100%;
+    
+    }
+    /* about section */
+   
+     .about-section .spacing{
+        padding: 40px 0px;
+    }
+    .s-title {
+        padding: 10px 0px 25px 0px;
+    }
+    .sub-title{
+        padding-top: 30px;
+    }
+    .logo-section {
+        padding-bottom: 70px;
+    }
+       /* news section */
+       .news-section{
+        padding: 45px 0px 80px;
+    }
+    .footer-section{
+        padding: 40px 0px 120px;
+    }
+    .footer-menu a{
+        padding: 10px 30px;
+    }
+    .footer-icon{
+        margin: auto;
+    }
+    .about-head-img{
+        width: 60px;
+    
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
-    
+    .lead{
+        font-size: 1rem;
+    }
 /* header */
     .navbar-logo{     
         height: 25px;        
@@ -145,14 +320,76 @@
     .display-3{
         font-size: 2rem;
     }
-   
-   
+    /* second-section */
+    .section-padding-1{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .section-padding{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .map-img{
+        padding: 40px 0px;
+    }
+    .map-section{ 
+       
+        background :linear-gradient(145deg, transparent 50%, #adcfdb 50% ); 
+    }
+    /* about */
+    .about-section .spacing{
+        padding: 30px 0px;
+    }
+    .s-title {
+        padding: 10px 0px 20px 0px;
+    }
+    .logo-section {
+        padding-bottom: 60px;
+    }
+    /* news section */
+    .news-section{
+        padding: 40px 0px 60px;
+    }
+    .news-box{
+        position: relative;
+        padding: 0px 15px;
+      
+    }
+    .newslider .slick-prev, .newslider .slick-next {
+        display: none !important;
+    }
+    .bt-second{
+        font-size: 14px;
+    }
+    .partner-sectioin{
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
+    .footerlogo{
+        padding-bottom: 30px;
+    }
+    .about-head-img{
+        width: 50px;
+    
+    }
+    .fs-18{
+        font-size: 18;
+    }
+    .sub-title{   
+        font-size: 14px;
+    }
+    .fs-14{
+        font-size: 12px;
+    }
  }
 
  
 /* Extra Small devices (landscape phones, 424px and up) */
 @media (max-width: 430px) { 
     
+    .lead{
+        font-size: 14px;
+    }
 /* header */
     .navbar-logo{
         height: 20px;
@@ -166,6 +403,20 @@
     .display-3{
         font-size: 1.6rem;
     }
+    .map-section{ 
+       
+        background :linear-gradient(141deg, transparent 50%, #adcfdb 50% ); 
+    }
+      /* service box */
+      .service-box{
+        height: 200px;
+        font-size: 12px;
+        
+    }
+    .service-overlay{
+        font-size: 12;
+    }
+    
     
  }
 
