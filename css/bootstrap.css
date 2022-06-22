@@ -469,8 +469,9 @@ progress {
 
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.2;
+  
 }
 @media (min-width: 1200px) {
   .display-2 {
@@ -3507,21 +3508,7 @@ textarea.form-control-lg {
   width: 324px;
   box-shadow: 0 0 30px 0 rgba(22, 22, 21, 0.1);
 }
-.dropdown-menu[data-bs-popper]::after {
-  position: absolute;
-  content: '';
-  right:0;
-  left: 0;
-  margin: auto;
-  top:-10px;
-  width: 0;
-  height: 0;
-  border: 0 solid transparent;
-  border-right-width: 30px;
-  border-left-width: 30px;
-  border-bottom: 22px solid #fff;
- 
-}
+
 
 .dropdown-menu-start {
   --bs-position: start;
@@ -5392,7 +5379,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 90vw;
     margin: 1.75rem auto;
   }
 
@@ -5405,13 +5392,13 @@ textarea.form-control-lg {
   }
 
   .modal-sm {
-    max-width: 300px;
+    max-width: 90vw;
   }
 }
 @media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
-    max-width: 800px;
+    max-width: 90vw;
   }
 }
 @media (min-width: 1200px) {
