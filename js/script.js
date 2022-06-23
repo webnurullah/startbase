@@ -1,6 +1,21 @@
 $(document).ready(function(){
 
-  
+
+  $(window).scroll(function () {
+    var $heightScrolled = $(window).scrollTop();
+    var $defaultHeight = 300;
+
+    if ($heightScrolled > $defaultHeight) {
+        $('.navbar').removeClass("navbar-top")
+        $('.navbar').addClass("navbar-scroll")
+    }
+    else {
+        $('.navbar').addClass("navbar-top")
+        $('.navbar').removeClass("navbar-scroll")
+    }
+
+    });
+      
     $('.brandlogo').slick({
         infinite: true,
         slidesToShow: 4,
@@ -79,4 +94,62 @@ $(document).ready(function(){
           ]
    
     });
+    // price slider
+    $('.priceslider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 5000,
+                settings: {
+                
+                  slidesToShow: 3
+                }
+              },
+            {
+                breakpoint: 992,
+                settings: {
+                
+                  slidesToShow: 2
+                }
+              },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
+   
+    });
   });
+
+
+
+
+// let items = document.querySelectorAll('.mycarouse .carousel .carousel-item')
+
+// items.forEach((el) => {
+//     const minPerSlide = 3
+//     let next = el.nextElementSibling
+//     for (var i=1; i<minPerSlide; i++) {
+//         if (!next) {
+//             // wrap carousel by using first child
+//         	next = items[0]
+//       	}
+//         let cloneChild = next.cloneNode(true)
+//         el.appendChild(cloneChild.children[0])
+//         next = next.nextElementSibling
+//     }
+// })
