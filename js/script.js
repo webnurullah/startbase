@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   $(window).scroll(function () {
     var $heightScrolled = $(window).scrollTop();
-    var $defaultHeight = 300;
+    var $defaultHeight = 50;
 
     if ($heightScrolled > $defaultHeight) {
         $('.navbar').removeClass("navbar-top")

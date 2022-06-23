@@ -168,6 +168,7 @@ body{
     top: 0;
     z-index: 99;
     transition: all .3s;
+   
 }
 .navbar-top{
   height: 220px;
@@ -863,6 +864,14 @@ padding-bottom: 10px;
     margin: auto;
 }
 .location-page-header .row{
+    max-width: 1090px;
+    margin: auto;
+}
+.about-section .row{
+    max-width: 1090px;
+    margin: auto;
+}
+.partner-sectioin .row{
     max-width: 1090px;
     margin: auto;
 }
