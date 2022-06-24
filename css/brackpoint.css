@@ -46,9 +46,7 @@
     .slider-img{
         height: 900px;
     }
-    .slider .fa-arrow-right-long, .slider .fa-arrow-left-long {
-        font-size: 35px;
-    }
+  
 
     .section-padding-1{
         padding-top: 140px;
@@ -60,11 +58,22 @@
     }
     .map-img{
         padding: 55px 0px;
-        max-width: 950px;
+       
     }
     .map-section {
         
         background: linear-gradient(153.5deg, transparent 50%, #adcfdb 50% );
+    }
+    .Taufers .dote::before{
+        width: 1px;
+        height: 211%;
+        background-color: #EDE7AE;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        right: 65px;
+        top: 45px;
+        transform: rotate(21deg);
     }
     /* about section */
    
@@ -99,6 +108,18 @@
     .location-map-section{
         padding-top: 90px;
         
+    }
+    .mals .name, 
+    .Schlanders .name, 
+    .Bruneck .name, 
+    .Bozen .name, 
+    .Meran .name
+    {
+    font-size: 25px;
+    }
+    .Taufers .name
+    {
+    font-size: 16px;
     }
 }
 
@@ -142,10 +163,21 @@
     }
     .map-img{
         padding: 55px 0px;
-        max-width: 900px;
+      
     }
     .map-section{ 
         background :linear-gradient(151deg, transparent 50%, #adcfdb 50% ); 
+    }
+    .Taufers .dote::before {
+        width: 1px;
+        height: 211%;
+        background-color: #EDE7AE;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        right: 69px;
+        top: 43px;
+        transform: rotate(30deg);
     }
     /* about section */
    
@@ -356,12 +388,33 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    /* map details */
     .map-img{
         padding: 45px 0px;
     }
     .map-section {
      
         background: linear-gradient(145.5deg, transparent 50%, #adcfdb 50% );
+    }
+    .mals .name, 
+    .Schlanders .name, 
+    .Bruneck .name, 
+    .Bozen .name, 
+    .Meran .name
+    {
+    font-size: 16px;
+    }
+    .Taufers .name
+    {
+    font-size: 14px;
+    }
+    .mals .title, 
+    .Schlanders .title, 
+    .Bruneck .title, 
+    .Bozen .title, 
+    .Meran .title
+    {
+    font-size: 10px;
     }
     .service-box{
         width: 100%;
@@ -447,6 +500,14 @@
         height: 30px;
         font-size: 12px;
         line-height: 30px;
+    }
+    .second-section .padding-left{
+        padding-left: 0vw;
+    }
+    .mals .dote::after, .Schlanders .dote::after, .Bruneck .dote::after, .Bozen .dote::after, .Meran .dote::after {
+        content: '';
+        width: 15px;
+        height: 15px;
     }
  }
 
