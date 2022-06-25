@@ -1,3 +1,13 @@
+function collapsedetails(){
+
+    const collection = document.getElementsByClassName("details-list");
+    collection[0].style.display = "none";
+}
+function expantdetails(){
+    const collectionstwo = document.getElementsByClassName("details-list");
+    collectionstwo[0].style.display = "block";
+}
+
 
 $(document).ready(function(){
 
