@@ -878,9 +878,15 @@ padding-bottom: 10px;
     background: linear-gradient(to top, rgba(22, 22, 21, 0.8) 0%, rgba(99, 99, 98, 0) 100%);
     
 }
+/* price section */
 .price-section{
     padding-right: 135px;
     padding-left: 135px;
+   
+}
+
+.price-section .owl-carousel.owl-theme.owl-loaded.owl-drag {
+    overflow-x: clip;
 }
 .price-section .card-body{
     padding: 0rem 0rem;
@@ -924,10 +930,11 @@ padding-bottom: 10px;
    z-index: 3;
    background-color: #fff;
    top: 0;
-  opacity: 0;
+   opacity: 0;
    box-shadow: 0px 20px 30px #1616151a;
    border-radius: 0px 0px 8px 8px;
    transition: all .3s;
+   
 }
 .price-section .card:hover {
     box-shadow: 0px 0px 60px #1616151a;
@@ -953,10 +960,16 @@ padding-bottom: 10px;
 .details-list .details-dropdown{
     padding: 30px 0px;
 } 
+
+.two-section .location-accordion:hover{
+    position: relative;
+    z-index: 2;
+}
 /* location accordion */
 .location-accordion {
-    
+   position: relative;
 }
+
 .location-accordion .row{
     max-width: 1090px;
     margin: auto;
