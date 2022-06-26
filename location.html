@@ -43,7 +43,10 @@
       <!-- ----------------------- header section ----------------------- -->
     <nav class="navbar navbar-top navbar-expand navbar-light bg-light">
       <div class="container-fluid">
-        <a href="index.html"> <img class="navbar-logo" src="images/logo/Logo.svg" alt=""></a>
+        <a class="text-decoration-none" href="index.html"> <img class="navbar-logo" src="images/logo/Logo.svg" alt="">
+          <span class="bozen-logo d-none d-md-block" >Bozen</span>
+        </a>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav d-flex align-items-center ms-auto">
             <li class="nav-item d-none d-sm-block">
@@ -64,9 +67,19 @@
             <li class="nav-item">
               <a class="nav-link" href="news.html">News</a>
             </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="btn bt-thard" href="news.html">Login</a>
+            </li>
             <div class="d-md-none header-hr"> </div>
             <li class="nav-item">
               <img class="header-icon" src="images/logo/it.svg" alt="">
+            </li>
+            <div class="d-md-none header-hr"> </div>
+            <li class="nav-item nav-log d-md-none">
+              <a class=" text-decoration-none text-white text-center" href="">
+                <i class="far fa-unlock"></i>
+                <i class="d-none far fa-lock"></i>
+              </a>
             </li>
 
           </ul>
@@ -105,7 +118,8 @@
 
     <!-- ----------------------- location banner section ----------------------->
     <div class="location-banner">
-      <img class="location-banner-img" src="images/locationpage/circletable.png" alt="">
+      <img class="location-banner-img d-none d-md-block" src="images/locationpage/circletable.png" alt="">
+      <img class="location-banner-img d-md-none" src="images/locationpage/lamp.png" alt="">
     </div>
 
     <div class="container location-page-header">
@@ -472,10 +486,7 @@
       <div class="container-fluid">
         <div class="row gx-0 align-items-center">
           <div class="col-12 col-md-6 col-lg-8 text-center map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175566.14564936733!2d10.917239098171567!3d46.56309432160596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829dab5e217b0f%3A0xbc70847e805488d0!2sStartbase%20Coworking%20Fiera-Messe!5e0!3m2!1sen!2sbd!4v1655950898207!5m2!1sen!2sbd"
-              width="100%" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2747.8314579124763!2d11.326670639299977!3d46.4718463205573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1656243485989!5m2!1sen!2sbd" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="location-button">
               <a class="btn bt-second" href=""> Routenplaner</a>
             </div>
