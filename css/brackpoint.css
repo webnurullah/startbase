@@ -928,7 +928,7 @@
     .Taufers .dote::before {
         width: 1px;
         height: 31px;
-        border-radius: 0%;
+        border-radius: 50%;
         right: 68%;
         top: 121%;
         transform: rotate(35deg);
@@ -936,7 +936,7 @@
     .mals .dote::after {
         width: 1px;
         height: 31px;
-        border-radius: 0%;
+        border-radius: 50%;
         right: 0;
         top: 20px;
         left: 70%;
@@ -1027,7 +1027,7 @@
     .Taufers .dote::after {
         width: 12px;
         height: 12px;
-        border-radius: 0%;
+        border-radius: 50%;
         border: 1px solid #EDE7AE;
         left: 12px;
         top: 22px;
@@ -1036,7 +1036,7 @@
     .Taufers .dote::before {
         width: 1px;
         height: 13px;
-        border-radius: 0%;
+        border-radius: 50%;
         right: 83%;
         top: 135%;
         transform: rotate(14deg);
@@ -1044,7 +1044,7 @@
     .mals .dote::after {
         width: 1px;
         height: 17px;   
-        border-radius: 0%;
+        border-radius: 50%;
         right: 0;
         top: 22px;
         left: 53%;
