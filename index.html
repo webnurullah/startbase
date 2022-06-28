@@ -37,41 +37,47 @@
 
 <body>
   <div class="wrapper">
+
+
     <!-- ------------------------- header -------------------------- -->
 
-    <nav class="navbar navbar-top header navbar-expand navbar-light bg-light">
-      <div class="container-fluid">
-        <a href="index.html"> <img class="navbar-logo" src="images/logo/Logo.svg" alt=""></a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav d-flex align-items-center ms-auto">
-            <li class="nav-item d-none d-sm-block">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item dropdown d-none d-md-block">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Locations
-              </a>
-              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Meran</a></li>
-                <li><a class="dropdown-item" href="#">Bozen</a></li>
-                <li><a class="dropdown-item" href="#">Bruneck</a></li>
-                <li><a class="dropdown-item" href="#">Schlanders & Mals</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News</a>
-            </li>
-            <div class="d-md-none header-hr"> </div>
-            <li class="nav-item">
-              <img class="header-icon" src="images/logo/it.svg" alt="">
-            </li>
+   <div class="header-container">
+      <nav class="navbar navbar-top header navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="index.html"> <img class="navbar-logo" src="images/logo/Logo.svg" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex align-items-center ms-auto">
+              <li class="nav-item d-none d-sm-block">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown d-none d-md-block">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Locations
+                </a>
+                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Meran</a></li>
+                  <li><a class="dropdown-item" href="#">Bozen</a></li>
+                  <li><a class="dropdown-item" href="#">Bruneck</a></li>
+                  <li><a class="dropdown-item" href="#">Schlanders & Mals</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <div class="d-md-none header-hr"> </div>
+              <li class="nav-item">
+                <img class="header-icon" src="images/logo/it.svg" alt="">
+              </li>
 
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="navbar-top"></div>
+      </nav>
+      <div class="navbar-top"></div>
+   </div>
+
+
     <!-- ------------------------- mobile menu ----------------------------- -->
     <div class="mobile-menu d-md-none">
       <div class="dropdown">
@@ -205,17 +211,11 @@
 
       </div>
 
-      <ul class="header-social-icon social-icon footer-social-icon list-unstyled d-none d-md-block">
-        <li class="align-self-center my-md-2 my-lg-3">
-          <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
-        </li>
-        <li class="align-self-center my-md-2 my-lg-3">
-          <a class="fs-18" href=""> <i class=" fa-brands fa-instagram"></i></i></a>
-        </li>
-      </ul>
     </div>
+
+
     <!-- --------------------- window fixed social icon -------------------------- -->
-    <ul class="social-icon extra-social-iocn list-unstyled d-none d-md-block">
+    <ul class="header-social-icon list-unstyled d-none d-md-block">
       <li class="align-self-center my-md-2 my-lg-3">
         <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
       </li>
@@ -403,11 +403,13 @@
         <img class="me-1 me-md-3 about-head-img" src="images/icons/threerec.svg" alt="">
         <span class="ms-1  ms-md-3 display-2 d-inline-block">About us</span>
       </div>
-      <div class="row align-items-center align-items-lg-start spacing">
-        <div class="col-12 col-md-4 col-lg-6 ">
-          <img class="img-fluid" src="images/about/workplace.png" alt="">
+
+
+      <div class="row gx-5 spacing">
+        <div class="col-12 col-md-6 col-lg-6 ">
+          <img class="about-img" src="images/about/workplace.png" alt="">
         </div>
-        <div class="col-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
           <span class="sub-title">Unsere Werte</span>
           <h2 class="h1 s-title">
             Die Mission
@@ -418,8 +420,8 @@
           </p>
         </div>
       </div>
-      <div class="row align-items-center align-items-lg-start spacing">
-        <div class="col-12 col-md-8 order-2 order-md-1 col-lg-6 d-flex flex-column justify-content-start">
+      <div class="row gx-5 spacing">
+        <div class="col-12 col-md-6 order-2 order-md-1 col-lg-6 d-flex flex-column justify-content-start">
           <span class="sub-title">Über uns</span>
           <h2 class="h1 s-title">
             Das Netzwerk
@@ -430,8 +432,8 @@
             nicht direkt von Start-​base, sondern von folgenden Betreibern geführt
           </p>
         </div>
-        <div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
-          <img class="img-fluid" src="images/about/workplace2.png" alt="">
+        <div class="col-12 col-md-6 order-1 order-md-2 col-lg-6">
+          <img class="about-img" src="images/about/workplace2.png" alt="">
         </div>
       </div>
     </div>
@@ -704,13 +706,13 @@
     </div>
 
        <!-- ----------------------- footer section ----------------------- -->
-    <div class="footer-section">
+    <div class="footer-container">
       <div class="container-fluid">
         <div class="row row-cols-1 row-cols-sm-2 align-items-md-center  justify-content-between ">
           <div class="col text-center text-md-start">
 
 
-            <ul class="pb-4 social-icon list-inline list-unstyled d-md-none">
+            <ul class="pb-4 footer-social-icon list-inline list-unstyled d-md-none">
               <li class="list-inline-item align-self-center">
                 <a class="fs-18" href=""> <i class=" fa-brands fa-facebook-f"></i></a>
               </li>

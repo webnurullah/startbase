@@ -1050,7 +1050,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
+  --bs-gutter-x: 3.75rem;
 }
 
 .g-5,
@@ -3499,12 +3499,13 @@ textarea.form-control-lg {
   background-clip: padding-box;
   border-radius: 0.25rem;
 }
+
 .dropdown-menu[data-bs-popper] {
-  top: 100%;
+  top: 170%;
   left: -25%;
   right: 0;
   margin: 0.125rem auto;
-  padding: 2.625rem !important;
+  /* padding: 2.625rem !important; */
   width: 324px;
   box-shadow: 0 0 30px 0 rgba(22, 22, 21, 0.1);
 }

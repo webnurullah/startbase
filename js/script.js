@@ -18,16 +18,23 @@ $(document).ready(function(){
     var $defaultHeight = 50;
 
     if ($heightScrolled > $defaultHeight) {
-        $('.navbar').removeClass("navbar-top")
-        $('.navbar').addClass("navbar-scroll")
+        $('.navbar').removeClass("navbar-top");
+        $('.navbar').addClass("navbar-scroll");
+        $(".header-social-icon li a").css("color", "#161615");
+        $(".header-social-icon li").css("border-color", "#161615");
     }
     else {
-        $('.navbar').addClass("navbar-top")
-        $('.navbar').removeClass("navbar-scroll")
+        $('.navbar').addClass("navbar-top");
+        $('.navbar').removeClass("navbar-scroll");
+      
+        $(".header-social-icon li a").css("color", "#fff");
+        $(".header-social-icon li").css("border-color", "#fff");
     }
 
     });
       
+   
+
     $('.brandlogo').slick({
         infinite: true,
         slidesToShow: 4,

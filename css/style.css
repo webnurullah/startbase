@@ -91,42 +91,44 @@ body{
 
 
 /* social icon */
-.social-icon li{
+.footer-social-icon li{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
 }
-.social-icon li a{
+
+.footer-social-icon li a{
     line-height: 40px !important;
     color: #fff;
 }
-.social-icon li{
+
+.footer-social-icon li{
     border: 2px solid white;
 }
 .header-social-icon{
-    position: absolute;
+    position: fixed;
     right: 2%;
     bottom: 2%;
     z-index: 10;
     margin: 0px 15px ;
     margin: 0px 30px;
 }
+.header-social-icon li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.header-social-icon li a{
+    line-height: 40px !important;
+    color: #fff;
+}
+.header-social-icon li{
+    border: 2px solid;
+    border-color: #fff;
+}
 
-.extra-social-iocn{
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    z-index: 1;
-    margin: 0px 30px;
-}
-.extra-social-iocn li a{
-    color: #161615;
-}
-.extra-social-iocn li{
-    border: 2px solid #161615;
-      
-}
 /* long window layout */
 .partner-sectioin-2 .row{
     max-width: 1090px;
@@ -141,8 +143,13 @@ body{
      margin: auto;
  }
  .about-section .row{
-     max-width: 1090px;
+     max-width: 1120px;
      margin: auto;
+ }
+ .about-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
  }
  .partner-sectioin .row{
      max-width: 1090px;
@@ -224,8 +231,7 @@ body{
 }
 .navbar-scroll{
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
-    height: 80px;
-  
+    height: 100px;
 }
 .header-hr{
     height: 51px;
@@ -240,6 +246,7 @@ body{
     margin-left: 20px;
     margin-right:20px;
 }
+
 .dropdown-menu[data-bs-popper]::after {
     position: absolute;
     content: '';
@@ -255,17 +262,29 @@ body{
     border-bottom: 22px solid #fff;
   }
 
+  .header-container .dropdown-item{
+    padding: 15px 0px;
+  }
+  .header-container .dropdown-menu{
+    padding: 20px 0px;
+  }
 /* slider */
 .slider{
     position: relative;
     z-index: 2;
+   
 }
 .slider .carousel-inner{
    position: relative;
 }
 .slider-img{
-    height: 960px;
+    object-fit: cover;
+    height: 100%;
     width: 100%;
+    
+}
+.slider .carousel-item{
+    height : calc(100vh - 120px);
 }
 .slider .carousel-inner .dark:after {
     content: "";
@@ -419,6 +438,7 @@ body{
 }
 .detailsmap{
     position: relative;
+   
 }
 .mals, .Schlanders, .Bruneck, .Bozen, .Meran , .Taufers{
     position: absolute;
@@ -832,12 +852,12 @@ body{
 }
 
 /* footer secion */
-.footer-section{
+.footer-container{
     background-color: #95b2bc;
     font-weight: 600;
     color: #fff;
     position: relative;
-    z-index: 2;
+    z-index: 12;
     padding: 40px 0px 40px;
 }
 
